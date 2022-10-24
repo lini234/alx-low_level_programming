@@ -1,10 +1,13 @@
 #include "main.h"
 /**
- *reset_to_98 -takes a pointer to an 'int' as parameter
- *and updates the value it points to to 98
- *@n: pointer variable
+ *swap_int - waps the values of two integers.
+ *@a: pointer parameter 1
+ *@b: pointer parameter 2
  */
-void reset_to_98(int *n)
+void swap_int(int *a, int *b)
 {
-	*n = 98;
+	int tmp = *a;
+	
+	*a = *b;
+	*b = tmp;
 }
