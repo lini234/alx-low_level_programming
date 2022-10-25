@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
  *print_array - prints n elements of a given array
  *@a: int pointer parameter
